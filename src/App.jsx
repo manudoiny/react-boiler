@@ -1,4 +1,7 @@
 import {Route, Switch} from "react-router-dom/cjs/react"
+import React from 'react';
+
+import Home from "../pages/Home";
 function App() {
   return (
     <>
