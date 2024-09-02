@@ -1,6 +1,11 @@
+import {Route, Switch} from "react-router-dom/cjs/react"
 function App() {
   return (
-    <p>Hola</p>
+    <>
+      <Switch>
+        <Route path="/" component={Home}/>
+      </Switch>
+    </>
   );
 }
 
